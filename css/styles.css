@@ -31,6 +31,7 @@ h2 {
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
+  line-height: 2;
 }
 
 h3 {
@@ -44,8 +45,17 @@ p {
 
 a{
   color: #8d93ab;
+
 }
 
+hr{
+  /* background-color: white; */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 40px;
+  }
 
 .img-1 {
   width: 15%;
@@ -71,6 +81,8 @@ a{
 }
 
 .bottom-container {
+  background-color: #00416d;
+  padding-top: 25px;
 
 /* last bit of the old style of creating boxes that touch css
   width: 200px;
@@ -99,5 +111,9 @@ a{
   margin: auto;
   text-align: left;
   line-height: 2;
+}
 
+.contact-me-button{
+  width: 25%;
+  background-color: blue;
 }
